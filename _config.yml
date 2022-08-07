@@ -1,0 +1,33 @@
+theme: jekyll-theme-cayman
+title: Making of a GPON Lab
+description: Blog about learning how to configure a GPON network
+
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink: none
+#relative_permalinks: true
+
+paginate: 5
+timezone: "Europe/Berlin"
+future: false
+
+# Website layout designed by Mark Otto
+
+# Custom vars
+version: 1.0.0
+excerpt_separator: <!--more-->
+
+compress_html:
+  clippings: all
+  comments: all
+  endings: all
+  startings: all
+
+gems:
+  - jekyll-sitemap
+  - jekyll-paginate
+
+markdown: kramdown
+
+host: 0.0.0.0
